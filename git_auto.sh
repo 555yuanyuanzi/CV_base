@@ -10,7 +10,7 @@ echo ">>> Step 2: Committing with message: '$commit_message'"
 git commit -m "$commit_message"
 
 echo ">>> Step 3: Pushing to GitHub..."
-git push origin master
+git push origin main
 
 echo ">>> All done!"
 read
